@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title: String = 'PonyRacer';
+  user: any = {name: 'Guillaume'};
+
+  onNewRace() {
+    // add a flashy message for the user.
+  }
 }
